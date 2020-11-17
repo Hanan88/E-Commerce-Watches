@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    /* overflow: hidden; */
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 500px;
+    height: 260px;;
+}
+nav{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-top: 30px;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+ul li{
+    float: left;
+    margin-right: 30px;
+    font-size: 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: #9B9B9B;
+}
+main{
+    height: 84vh;
+    background-color: antiquewhite;
+}
+.left-side{
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 170px;
+}
+.left-side h4{
+    font-weight: lighter;
+    font-size: 70px;
+    color: #975480;
+}
+.left-side h2{
+    font-weight: bold;
+    font-size: 75px;
+    color: #7B1659;
+}
+.left-side button{
+    width: 145px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    color: #DBA3C8;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.right-side{
+    width: 50%;
+    float: left;
+}
+.right-side img{
+    height: 450px;
+    width: 390px;
+    margin-left: 260px;
+    margin-top: 40px;
+}
+/* /////////////Register page////////////// */
+form{
+    width: 64%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+form input{
+    display: block;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+form button{
+    width: 145px;
+    height: 50px;
+    background-color: #7B1659;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 15px 0 30%; 
+}
+form a{
+    color: #7B1659;
+}
+/* /////////////Login page////////////// */
