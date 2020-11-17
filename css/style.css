@@ -17,7 +17,7 @@ header{
 }
 .logo img{
     width: 500px;
-    height: 260px;;
+    height: 260px;
 }
 nav{
     width: 50%;
@@ -39,8 +39,8 @@ ul li a{
     color: #9B9B9B;
 }
 main{
-    height: 84vh;
-    background-color: antiquewhite;
+    height: 557px;
+    background: linear-gradient(90deg, rgba(219,163,200,1) 0%, rgba(255,248,219,1) 100%);
 }
 .left-side{
     width: 50%;
@@ -79,6 +79,7 @@ main{
     width: 390px;
     margin-left: 260px;
     margin-top: 40px;
+    transform: rotate(12deg);
 }
 /* /////////////Register page////////////// */
 form{
@@ -109,4 +110,85 @@ form button{
 form a{
     color: #7B1659;
 }
-/* /////////////Login page////////////// */
+/* /////////////Shop page////////////// */
+.logo-shop{
+    position: absolute;
+}
+.main-shop{
+    overflow: hidden;
+}
+.category{
+    width: 100%;
+    margin-top: 10%;
+}
+.category-list{
+    width: 60%;
+    margin: 45px auto;
+    background-color: rgba(255, 255, 255, 0.452);
+    height: 60px;
+    padding: 11px 0 0 43px;
+    border-radius: 15px;
+}
+.category-item{
+    font-size: 25px;
+    font-weight: 500;
+}
+.boxes-products{
+    width: 100%;
+    overflow: hidden;
+}
+.boxes-products .box{
+    width: 22%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    float: left;
+    margin-left: 30px;
+}
+.boxes-products .box .product-image{
+    width: 60%;
+    /* float: left; */
+    margin: 20px 0 0 26px;
+    transform: rotate(11deg);
+}
+.boxes-products .box .discount{
+    background-color: red;
+    padding: 10px;
+    border-top-left-radius: 19px;
+    width: 22%;
+    float: right;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+.boxes-products .box .product-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: #7B1659;
+    margin: 0 0 0 15px;
+    display: block;
+    float: left;
+}
+.boxes-products .box .price{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #7B1659;
+    margin: 0px 0 0 30px;
+    width: 50px;
+    display: block;
+    float: left;
+}
+.boxes-products .box button{
+    width: 81px;
+    height: 31px;
+    background-color: #7B1659;
+    border-top-left-radius: 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* background: rgb(219,163,200);
+background: linear-gradient(90deg, rgba(219,163,200,1) 0%, rgba(255,248,219,1) 100%); */
