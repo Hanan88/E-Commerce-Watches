@@ -189,6 +189,60 @@ form a{
     text-transform: uppercase;
     font-weight: bold;
 }
+/* /////////////Brand page////////////// */
+.brandTable{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: #7c1658;
+}
+.brandTable th{
+    border-bottom: 1px #7c1658 solid;
+}
+.brandTable th img{
+    width: 130px;
+    height: 100px;
+}
+.deleteBtn{
+    width: 70px;
+    height: 30px;
+    margin: 2px;
+    border: 0.5px #fff solid;
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.editBtn{
+    width: 70px;
+    height: 30px;
+    margin: 2px;
+    border: 0.5px #fff solid;
+    background-color: blue;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addBtn{
+    width: 150px;
+    height: 50px;
+    margin: 10px 0 0 204px;
+    border: 0.5px #fff solid;
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* background: rgb(219,163,200);
 background: linear-gradient(90deg, rgba(219,163,200,1) 0%, rgba(255,248,219,1) 100%); */

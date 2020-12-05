@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Brands</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,12 +22,21 @@
         </nav>
     </header>
     <main>
-        <form action="#">
-            <input type="email" placeholder="Enter your Email">
-            <input type="password" placeholder="Enter your Password">
-            <button type="submit">Login</button>
-            <a href="register.html">OR Create Account</a>
-        </form>
+        <table class="brandTable">
+            <tr>
+                <th>Brand id</th>
+                <th>Brand name</th>
+                <th>Brand logo</th>
+                <th>Control</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Piaget</th>
+                <th><img src="images/piaget_logo.gif" alt="Piaget Logo"></th>
+                <th><button class="editBtn">Edit</button><button class="deleteBtn">Delete</button></th>
+            </tr>
+        </table>
+        <button class="addBtn">Add New Brand</button>
     </main>
     
 </body>
